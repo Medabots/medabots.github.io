@@ -1,0 +1,3 @@
+[submodule "m3prerender"]
+	path = m3prerender
+	url = https://github.com/Medabots/medarot3_prerenderer.git
