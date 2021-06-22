@@ -1,0 +1,3 @@
+[submodule "m3text"]
+	path = m3text
+	url = https://github.com/Medabots/medarot3_dialog-previewer-js.git
