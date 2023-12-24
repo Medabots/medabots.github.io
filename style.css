@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@-ms-viewport { width:device-width; }
+@viewport { width:device-width; }
+body { margin:0; }
+.m1,.m1pc,.m1pc2,.m2,.m2pc,.m3,.m3pc,.m4,.m4pc,.m5,.m5pc { height:144px; background-repeat:repeat; background-position:left top; width:100%; overflow:hidden; }
+.m1 { background-image:url(medarot-1.png); }
+.m3 { background-image:url(medarot-3.png); }
+.header { position:relative; width:100%; overflow:hidden; height:40px; background:#FFF; padding:0 0 8px; }
+.header h1, .logo-1x, .logo-2x, .logo-3x, .logo-4x { position:absolute; width:100%; top:0; left:0; text-align:center; margin:0; padding:0; font-size:12px; display:block; }
+h2 { background:#000; padding:8px; color:#FFF; font-family:"Century Gothic",CenturyGothic,"Century-Gothic","STHeiti",AppleGothic,Arial,sans-serif; font-size:26px; font-weight:normal; margin:0; }
+.logo-2x, .logo-3x, .logo-4x { display:none; }
+.desc { background:#FFF; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-family:Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; padding:8px; }
+@media only screen and (min-width:272px) {
+	.logo-2x { display:block; }
+	.header { height:80px; }
+}
+@media only screen and (min-width:408px) {
+	.logo-3x { display:block; }
+	.header { height:120px; }
+}
+@media only screen and (min-width:544px) {
+	.logo-4x { display:block; }
+	.header { height:160px; }
+}
+@media only screen and (max-width:180px) {
+	h2 { font-size:18px; }
+	.desc { font-size:12px; }
+}
